@@ -74,7 +74,7 @@ export AWS_SESSION_TOKEN=XXXXXXXXXXXXXXXXXXXX
 ```
 - inject tokens into the current ENV
 ```
-» eval $(yak cxd-dev)
+» eval $(yak account-dev)
 » aws sts get-caller-identity
 
 ```
